@@ -2,6 +2,6 @@ This is a simple fan control script written in C for devices that use embedded c
 This script will only work on Linux as it uses 'msr' and 'ec_sys' kernel modules. 
 Currently it only supports NVIDIA GPUs and Intel CPUs.
 Before compilation, replace the values in 'configuration' part of the script with the fan registers and fan profiles pertaining to YOUR device.
-After generating the object file, link it to the NVML library.
+After generating the object file, link it with the NVML library.
 Make sure that 'msr' and 'ec_sys' modules are loaded before you run the script.
 Make sure that NVIDIA drivers are correctly installed and the NVIDIA kernel module is not blacklisted.
